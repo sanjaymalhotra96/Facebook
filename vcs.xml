@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/sanjaymalhotra96/myfirstapp.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/sanjaymalhotra96/Facebook.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\" />
