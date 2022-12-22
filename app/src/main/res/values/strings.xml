@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">facebook</string>
+    <string name="connaught_place_new_delhi_place">Connaught Place, New Delhi Place</string>
+    <string name="reschedule_ride">Reschedule Ride</string>
+
+
+
+
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="home_fragment">Home Fragment</string>
+        <string name="sport_fragment">Sport Fragment</string>
+        <string name="movie_fragment">Movie Fragment</string>
+
+</resources>
