@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton.extend(callback)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
