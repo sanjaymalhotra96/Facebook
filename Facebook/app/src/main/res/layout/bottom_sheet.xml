@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:elevation="2dp"
+        android:background="@drawable/backgroundtext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="ride"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bottomsheet"
+            app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="40dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:text="@string/reschedule_ride"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cont"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/ic_btn__11_"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
