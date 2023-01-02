@@ -8,10 +8,21 @@
             <value value="4c42cebb0408" />
           </Key>
         </key>
-        <lastOnlineTime value="2023-01-02T11:48:47.909618500Z" />
         <name value="Xiaomi M2004J19PI" />
         <target value="Android 11.0" />
         <api value="30" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="290dbaf5" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2023-01-02T12:11:04.823027Z" />
+        <name value="vivo vivo 1935" />
+        <target value="Android 10.0" />
+        <api value="29" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
